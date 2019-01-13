@@ -105,8 +105,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our process for submitting pull requests to us, and please ensure
-you follow the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our process for submitting pull requests to us.
 
 ### Develop
 
