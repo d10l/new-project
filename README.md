@@ -5,10 +5,8 @@ This project contains a template to use when creating a new project. It comes wi
 ## How to use
 
 1. Clone this project and copy the files into your own project
-2. Go through [this checklist](../../issues/1)
+2. Update files in `.github`, `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `LICENSE`, `MAINTAINERS`, `SECURITY.md`, `README.md`
 3. Start developing!
-4. Ensure you are in compliance with Zalando rules of play
-5. If in doubt, get in touch with opensource@zalando
 
 ## Readme template
 
@@ -131,6 +129,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
+* Thanks to [@zalando-incubator/new-project](https://github.com/zalando-incubator/new-project) for the project template
 * Thanks to [@PurpleBooth](https://github.com/PurpleBooth) for the original readme
 * Thanks to the [@zalando/Nakadi](https://github.com/zalando/nakadi) project for Contribution file
 * Thanks to [@SteveMao](https://github.com/stevemao) for [Issue templates](https://github.com/stevemao/github-issue-templates)
