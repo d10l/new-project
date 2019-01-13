@@ -4,9 +4,11 @@
 
 There are multiple ways of getting involved:
 
-- [Report a bug](#report-a-bug) 
-- [Suggest a feature](#suggest-a-feature) 
-- [Contribute code](#contribute-code) 
+- [Contributing to _projectname_](#contributing-to-projectname)
+  - [Report a bug](#report-a-bug)
+  - [Suggest a feature](#suggest-a-feature)
+  - [Contribute code](#contribute-code)
+    - [Commit messages](#commit-messages)
 
 Below are a few guidelines we would like you to follow.
 If you need help, please reach out to us by opening an issue.
@@ -33,13 +35,12 @@ It is always best to discuss your plans beforehand, to ensure that your contribu
 - Create a topic branch from where you want to base your work. This is usually master.
 - Open a new pull request, label it `work in progress` and outline what you will be contributing
 - Make commits of logical units.
-- Make sure you sign-off on your commits `git commit -s -m "adding X to change Y"` 
 - Write good commit messages (see below).
 - Push your changes to a topic branch in your fork of the repository.
 - As you push your changes, update the pull request with new infomation and tasks as you complete them
 - Project maintainers might comment on your work as you progress
 - When you are done, remove the `work in progess` label and ping the maintainers for a review
-- Your pull request must receive a :thumbsup: from two [maintainers](MAINTAINERS)
+- Your pull request must receive a :thumbsup: from a [maintainer](MAINTAINERS)
 
 Thanks for your contributions!
 
@@ -47,15 +48,6 @@ Thanks for your contributions!
 Your commit messages ideally can answer two questions: what changed and why. The subject line should feature the “what” and the body of the commit should describe the “why”.  
 
 When creating a pull request, its description should reference the corresponding issue id.
-
-### Sign your work / Developer certificate of origin
-All contributions (including pull requests) must agree to the Developer Certificate of Origin (DCO) version 1.1. This is exactly the same one created and used by the Linux kernel developers and posted on http://developercertificate.org/. This is a developer's certification that he or she has the right to submit the patch for inclusion into the project. Simply submitting a contribution implies this agreement, however, please include a "Signed-off-by" tag in every patch (this tag is a conventional way to confirm that you agree to the DCO) - you can automate this with a [Git hook](https://stackoverflow.com/questions/15015894/git-add-signed-off-by-line-using-format-signoff-not-working)
-
-```
-git commit -s -m "adding X to change Y"
-```
-
-
 
 
 **Have fun, and happy hacking!**
