@@ -1,6 +1,9 @@
+---
+to: LICENSE
+---
 MIT License
 
-Copyright (c) _currentyear_ Dennis Seidel
+Copyright (c) <%= currentyear %> <%= yourname %>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

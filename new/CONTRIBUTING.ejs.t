@@ -1,10 +1,13 @@
-# Contributing to _projectname_
+---
+to: CONTRIBUTING.md
+---
+# Contributing to <%= projectname %>
 
-**Thank you for your interest in _projectname_. Your contributions are highly welcome.**
+**Thank you for your interest in <%= projectname %>. Your contributions are highly welcome.**
 
 There are multiple ways of getting involved:
 
-- [Contributing to _projectname_](#contributing-to-projectname)
+- [Contributing to <%= projectname %>](#contributing-to-projectname)
   - [Report a bug](#report-a-bug)
   - [Suggest a feature](#suggest-a-feature)
   - [Contribute code](#contribute-code)

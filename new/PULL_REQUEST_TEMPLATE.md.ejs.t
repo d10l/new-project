@@ -1,3 +1,7 @@
+---
+to: .github/PULL_REQUEST_TEMPLATE.md
+---
+
 # One-line summary
 
 > Issue : #1234 (only if appropriate)

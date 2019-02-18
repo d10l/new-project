@@ -1,3 +1,6 @@
+---
+to: README.md
+---
 # Project Boilerplate
 
 This project contains a template to use when creating a new project. It comes with all the standard files which there is expected to be in an open source project on Github. 
@@ -22,7 +25,7 @@ Readme.md template below, when setup is complete, delete all content above this.
 ```
 
 
-# _projectname_
+# <%= projectname %>
 
 _description_
 
@@ -37,8 +40,8 @@ This project allows you to scale X (feature) in a fast and predictable way (bene
 
 Think about your project as a product, consider who your audience is, and how your decisions affect the number of potential users, below is a handy checklist of things to consider before open sourcing any code. 
 
-- **Avoid internal dependencies** Obviously projects that require Zalando specific infrastructure, configuration or process have very limited use to anyone outside Zalando. 
-- **Avoid narrow usecases** Does this solve a Zalando-only problem or does it have broarder application - is there things you could change to make it a more general product
+- **Avoid internal dependencies** Obviously projects that require internal specific infrastructure, configuration or process have very limited use to anyone outside internal. 
+- **Avoid narrow usecases** Does this solve a internal-only problem or does it have broarder application - is there things you could change to make it a more general product
 - **Have a Product vision** Do you know where you want to take this product? - then be open about it so future contributors are aware. Being opinionated is great and it helps set expectations and the direction for the project
 - **Take ownership** Are you are benevolent dictator or open to anything? - consider how you will interact with future contrbutors who expect you to be an active maintainer
 - **Safe defaults** How do people get up and running - are there alot of ceremony involved or can you provide a simple out of the box experience so it is easy for users to evaluate your project
@@ -113,7 +116,7 @@ Explain how this project was build and give the technical background to contribu
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/zalando-incubator/_projectname_/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/<%= githuborgname %>/<%= projectname %>/tags). 
 
 ## Authors
 

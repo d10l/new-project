@@ -1,0 +1,4 @@
+---
+to: MAINTAINERS
+---
+<%= yourname %> <<%= email %>>
