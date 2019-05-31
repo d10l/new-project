@@ -1,8 +1,6 @@
 # templates
 
-Includes all templates used to bootstrap projects 
-
-- uses [hygen](http://www.hygen.io/quick-start)
+Includes all templates used to bootstrap projects. Those template could also be used directly with [hygen](http://www.hygen.io/templates/) by cloning the folders into the `_templates` folder and execute hygen.
 
 provides the following tempate:
 
