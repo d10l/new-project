@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/tsconfig.json
+to: tsconfig.json
 ---
 {
     "compilerOptions": {

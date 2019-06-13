@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/<%= functionname %>/tests/unit/test.js
+to: <%= functionname %>/tests/unit/test.js
 ---
 'use strict';
 

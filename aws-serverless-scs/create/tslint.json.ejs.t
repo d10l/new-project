@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/tslint.json
+to: tslint.json
 ---
 {
   "compilerOptions": {

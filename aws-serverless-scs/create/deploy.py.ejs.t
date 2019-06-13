@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/deploy.py
+to: deploy.py
 ---
 #!/usr/bin/env python3
 import os

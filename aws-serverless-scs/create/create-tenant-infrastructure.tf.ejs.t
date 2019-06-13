@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/<%= functionname %>/infrastructure.tf
+to: <%= functionname %>/infrastructure.tf
 ---
 resource "aws_lambda_function" "create_tenants" {
   function_name = "ServerlessExample"

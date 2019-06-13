@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/<%= functionname %>/.npmignore
+to: <%= functionname %>/.npmignore
 ---
 tests/*
 *.tgz

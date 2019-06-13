@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/.gitignore
+to: .gitignore
 ---
 /bin/
 /node_modules/

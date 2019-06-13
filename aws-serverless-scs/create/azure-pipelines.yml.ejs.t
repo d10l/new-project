@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/azure-pipelines.yml
+to: azure-pipelines.yml
 ---
 # https://github.com/denseidel/saas-platform-template/blob/master/devops/frontend-preview/azure-pipelines.yaml
 # Add steps that analyze code, save build artifacts, deploy, and more:

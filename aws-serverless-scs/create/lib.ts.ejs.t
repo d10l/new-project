@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/lib.ts
+to: lib.ts
 ---
 import * as archiver from 'archiver';
 import * as fs from 'fs';

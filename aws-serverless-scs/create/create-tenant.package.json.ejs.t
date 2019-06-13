@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/<%= functionname %>/package.json
+to: <%= functionname %>/package.json
 ---
 {
   "name": "<%= functionname %>",

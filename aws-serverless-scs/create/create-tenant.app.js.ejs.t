@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/<%= functionname %>/app.js
+to: <%= functionname %>/app.js
 ---
 // const axios = require('axios')
 // const url = 'http://checkip.amazonaws.com/';

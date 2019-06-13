@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/vars.tf
+to: vars.tf
 ---
 variable "AWS_ACCESS_KEY" {}
 variable "AWS_SECRET_KEY" {}

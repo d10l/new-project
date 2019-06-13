@@ -1,5 +1,5 @@
 ---
-to: <%= servicename %>/openapi.yaml
+to: openapi.yaml
 ---
 openapi: 3.0.2
 info:
