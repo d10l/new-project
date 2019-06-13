@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 module "tenant_lambda" {
-  source = "./<%= servicename %>"
+  source = "./<%= functionname %>"
 }
 
 resource "aws_api_gateway_rest_api" "tenant_mangement" {
