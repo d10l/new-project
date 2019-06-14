@@ -1,7 +1,7 @@
 ---
 to: <%= functionname %>/infrastructure.tf
 ---
-resource "aws_lambda_function" "create_tenants" {
+resource "aws_lambda_function" "<%= functionname %>" {
   function_name = "ServerlessExample"
 
   # The bucket name as created earlier with "aws s3api create-bucket"
@@ -15,13 +15,13 @@ resource "aws_lambda_function" "create_tenants" {
 
   runtime = "nodejs6.10"
 
-  role = "${aws_iam_role.create_tenants.arn}"
+  role = "${aws_iam_role.<%= functionname %>.arn}"
 }
 
 # IAM role which dictates what other AWS services the Lambda function
 # may access.
-resource "aws_iam_role" "create_tenants" {
-  name = "create_tenants"
+resource "aws_iam_role" "<%= functionname %>" {
+  name = "<%= functionname %>"
 
   assume_role_policy = <<EOF
 {
@@ -40,4 +40,8 @@ resource "aws_iam_role" "create_tenants" {
   ]
 }
 EOF
+}
+
+output "aws_lambda_function_<%= functionname %>_arn" {
+  value = "${aws_lambda_function.<%= functionname %>.arn}"
 }
